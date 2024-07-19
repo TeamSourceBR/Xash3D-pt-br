@@ -74,7 +74,7 @@
 "Enable the weapon aiming crosshair"                                      "Habilitar a retícula de mira da arma"
 "Enable touch"                                                            "Habilitar toque"
 "Enable vibration"                                                        "Habilitar vibração"
-"Enable water ripple effect, like in software-mode GoldSrc"               "Habilitar efeito de ondulação na água, como no GoldSrc em modo software"
+"Enable water ripple effect, like in software-mode GoldSrc"               "Habilitar efeitos de ondulação na água, como na GoldSrc em modo software"
 "Enable/disable interpolation on sound output"                            "Habilitar/desabilitar interpolação na saída de som"
 "Enables alternative coefficients table"                                  "Habilita tabela de coeficientes alternativa"
 "Enter your multiplayer display name"                                     "Coloque seu nome de exibição em multijogador"
