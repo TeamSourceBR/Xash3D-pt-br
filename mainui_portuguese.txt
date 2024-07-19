@@ -27,7 +27,7 @@
 "Change gamepad axis and button settings"                                 "Alterar configurações de eixos e botões do controle"
 "Change keyboard and mouse settings"                                      "Mudar configurações de mouse e teclado"
 "Change mouse sensitivity, enable autoaim, mouselook and crosshair"       "Alterar a sensibilidade do mouse, habilitar mira automática, visão pelo mouse e retículo"
-"Change screen size, video mode and gamma"                                "Mudar tamanho da tela, modo de video e Gama"
+"Change screen size, video mode and gamma"                                "Mudar tamanho da tela, modo de video e gama"
 "Change sound volume and quality"                                         "Mudar volume e qualidade do som"
 "Change touch settings and buttons"                                       "Mudar configurações de toque e botões"
 "Changing level on server"                                                "Mudar nivel no servidor"
