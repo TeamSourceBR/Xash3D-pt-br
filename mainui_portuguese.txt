@@ -263,7 +263,7 @@
 "Select desired window mode"                                              "Selecionar modo de janela desejado"
 "Select network mode:"                                                    "Selecionar modo de rede"
 "Select texture from list"                                                "Selecionar textura da lista"
-"Server 'ping' time:"                                                     "Servidor 'ping' tempo:"
+"Server 'ping' time:"                                                     "Tempo de latencia do servido:"
 "Server IP address:"                                                      "Indereço IP do servidor"
 "Server Options"                                                          "Opções do servidor"
 "Server Rule"                                                             "Regras do Servidor"
