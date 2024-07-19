@@ -274,7 +274,7 @@
 "Set background music volume level"                                       "Definir nível de volume da música de fundo"
 "Set brightness level"                                                    "Definir nivel do brilho"
 "Set button additive draw mode"                                           "Definir botão para mode de renderização aditiva"
-"Set gamma value"                                                         "Definir valor do Gama"
+"Set gamma value"                                                         "Definir valor do gama"
 "Set grid size"                                                           "Definir tamanho da grade"
 "Set in-game mouse sensitivity"                                           "Definir sensibilidade do mouse no jogo"
 "Set master volume level"                                                 "Definir volume geral"
