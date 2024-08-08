@@ -1,7 +1,7 @@
 # Xash3D-pt-br
 
-`mainui_portuguese.txt` arquivo onde fica a tradução de toda interface.
+cole as 2 pastas que estão em `1. compilação` na pasta `valve` do seu Xash
 
-Para aplicalo coloque ele na pasta `valve/resource` depois abra o Xash e coloque o comando `ui_language portuguese`. Para aplicar a tradução nos textos amarelos da UI coloque essa linha no seu gameinfo.txt : `render_picbutton_text 1`
+Para aplicar abra o Xash e coloque o comando `ui_language portuguese` no console e pronto.
 
-:)
+:) aguardamos seu feedback!
