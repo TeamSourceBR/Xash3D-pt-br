@@ -1,7 +1,8 @@
 # Xash3D-pt-br
 
-cole as 2 pastas que estão em `1. compilação` na pasta `valve` do seu Xash
+Este é uma tradução comunitária para o Half-Life do Xash3D, esse é uma tradução completa (Tudo que é possível traduzir) dá interface, agora estamos no período de feedback para melhoria
 
-Para aplicar abra o Xash e coloque o comando `ui_language portuguese` no console e pronto.
-
-:) aguardamos seu feedback!
+feito por:
+David
+AG1
+Shadow Kaze
