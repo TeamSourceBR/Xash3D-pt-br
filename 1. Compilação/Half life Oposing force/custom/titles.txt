@@ -1,0 +1,1087 @@
+//TITLES FOR HALF-LIFE
+// Position command $position x y 
+// x & y are from 0 to 1 to be screen resolution independent
+// -1 means center in each dimension
+// Effect command $effect <effect number>
+// effect 0 is fade in/fade out
+// effect 1 is flickery credits
+// effect 2 is write out (training room)
+// Text color r g b command $color
+// fadein time fadeout time / hold time
+// $fadein (message fade in time - per character in effect 2)
+// $fadeout (message fade out time)
+// $holdtime (stay on the screen for this long)
+
+//INTRO TITLES
+$position -1 -1
+$effect 2
+$color 100 100 100
+$color2 240 110 0
+$fadein 0.01
+$fxtime 0.25
+$holdtime 3.5
+$fadeout 1.5
+
+CR27
+{
+Instalação de Pesquisas de Black Mesa
+Black Mesa, Novo México
+}
+
+//INTRO CREDITS
+$position 0.8 0.8
+$effect 1
+$color 128 128 128
+$color2 0 0 0
+$fadein 1
+$fadeout 1.5
+$holdtime 1
+
+CR1
+{
+Stephen Bahl
+}
+
+CR2
+{
+Patrick Deupree
+}
+
+CR3
+{
+John Faulkenbury
+}
+
+CR4
+{
+Rob Heironimus
+}
+
+CR5
+{
+Steve Jones
+}
+
+CR6
+{
+Brian Martel
+}
+
+CR7
+{
+David Mertz
+}
+
+CR8
+{
+Landon Montgomery
+}
+
+CR9
+{
+Tollbooth Willy
+}
+
+CR10
+{
+Randy Pitchford
+}
+
+CR11
+{
+Sean Reardon
+}
+
+CR12
+{
+Mike Wardwell
+}
+
+//END CREDITS
+$position -1 -1
+$effect 0
+$color 128 128 128
+$color2 0 0 0
+$fadein 0.5
+$fadeout 0.5
+$holdtime 4
+
+GEARBOXIS
+{
+Gearbox is:
+
+Stephen Bahl
+Patrick Deupree
+John Faulkenbury
+Rob Heironimus
+Steve Jones
+Brian Martel
+David Mertz
+Landon Montgomery
+Randy Pitchford
+Sean Reardon
+Mike Wardwell
+}
+
+THANKSTO
+{
+Dustin Porter
+Danny Richardson
+Harry S. Robins
+David Sawyer
+John Shaffstall
+Mike Shapiro
+Jon St. John
+Valve Software
+Sierra Studios
+}
+
+$holdtime 10
+
+END1
+{
+Special thanks to:
+
+Matt Armstrong
+Kristy Junio
+Joe Kennebec
+Doug Lombardi
+Eli Luna
+Gabe Newell
+Frank Nuccio
+Genevieve Ostergard
+Stephen Palmer
+Jeff Pobst
+}
+
+$holdtime 10
+
+END2
+{
+Versão brasileira:
+
+Mesa Preta Dubs
+
+Bella Rocha - Sistema de trânsito
+Kayky Aguiar - Otis
+Kayky Aguiar - Cientistas
+Kayky Aguiar - Gman 
+Kayky Aguiar - Sgt. Dwight Barnes
+Kayky Aguiar - Sgt. Sharp
+Marcelo Ferrari - H.E.C.U
+Marcelo Ferrari - Black Ops
+Vinícius Borges - H.E.C.U
+Xalalau Xubilozo - Barney
+Xalalau Xubilozo - H.E.C.U
+Mario Masotti - Black Ops
+}
+
+$holdtime 3
+
+END3
+{
+Direção de dublagem:
+Kayky Aguiar
+
+Agradecimentos:
+Nicolas Jader
+}
+
+//INTRO TITLES
+$position -1 -1
+$effect 2
+$color 100 100 100
+$color2 0 250 0
+$fadein 0.01
+$fxtime 0.25
+$holdtime 4
+$fadeout 1.5
+
+
+CR28
+{
+SUJEITO:
+Adrian Shephard
+Homem, 22 anos
+}
+
+CR29
+{
+TREINAMENTO:
+Corpo de Fuzileiros Navais dos Estados Unidos,
+Forças Especiais
+}
+
+CR30
+{
+POSIÇÃO:
+Cabo
+}
+
+CR31
+{
+OFICIAL COMANDANTE:
+Sargento Dwight T. Barnes
+}
+
+CR32
+{
+ATUAL APLICAÇÃO:
+Unidade de Combate a Ambientes Perigosos (HECU)
+Base Militar de Santego, Arizona
+}
+
+CR33
+{
+MISSÃO:
+Classificada
+}
+
+
+$fadein 0.03
+$holdtime 9
+GFOLLOW_LOSER
+{
+SUJEITO:  SHEPHARD
+
+STATUS:  AVALIAÇÃO FINALIZADA
+
+OBSERVÇÃO:
+O sujeito tentou criar um paradoxo temporal.
+}
+
+
+
+$fadein 0.03
+$holdtime 9
+GAMEOVER
+{
+SUJEITO:  SHEPHARD
+
+STATUS:  DETIDO
+
+AVALIAÇÃO FUTURA PENDENTE
+}
+
+
+$fadein 0.03
+$holdtime 9
+BC_FAILURE
+{
+SUJEITO:  SHEPHARD
+
+STATUS:  AGUARDANDO VEREDITO
+}
+
+
+
+$fadein 0.03 
+$holdtime 9
+TRAITOR
+{
+x
+}
+
+$fadein 0.03
+$holdtime 9
+LOSER
+{
+x
+}
+
+$fadein 0.03
+$holdtime 9
+OFGAMEOVER
+{
+SUJEITO:  CABO SHEPHARD
+
+STATUS:  AVALIAÇÃO RECUSADA
+
+OBSERVAÇÃO:
+O sujeito falhou ao tentar utilizar
+recursos humanos na realização do objetivo.
+}
+
+$fadein 0.03
+$holdtime 9
+DISP_LOSER
+{
+SUJEITO:  SHEPHARD
+
+STATUS:  MORTE ACIDENTAL
+
+AUTOPSIA:
+INFORTÚNIO ERRO DE AUTO-TELETRANSPORTE DO DESLOCADOR
+}
+
+//CHAPTER TITLES
+$fadein 0.01
+$position -1 0.8
+$holdtime 3.5
+
+OF_BOOT0TITLE
+{
+CAMPO DE TREINAMENTO
+}
+
+OF0A0
+{
+FORÇA OPOSTA
+}
+
+OF1A1TITLE
+{
+A CAMINHO
+}
+
+OF1A3TITLE
+{
+BEM VINDO À BLACK MESA
+}
+
+OF1A5TITLE
+{
+ESTAMOS ABANDONANDO A BASE
+}
+
+OF2A1TITLE
+{
+PERDIDO EM AÇÃO
+}
+
+OF2A4TITLE
+{
+FOGO AMIGO
+}
+
+OF3A1TITLE
+{
+NÃO ESTAMOS SOZINHOS
+}
+
+OF3A3TITLE
+{
+PROFUNDEZA ESMAGADORA
+}
+
+OF4A1TITLE
+{
+REALIDADE VICÁRIA
+}
+
+OF4A4TITLE
+{
+NINHO DO PIT WORM
+}
+
+OF5A1TITLE
+{
+FOXTROT UNIFORM
+}
+
+OF6A1TITLE
+{
+"O PACOTE"
+}
+
+OF6A4TITLE
+{
+COLISÃO ENTRE MUNDOS
+}
+
+OF7A0TITLE
+{
+CONCLUSÃO
+}
+
+
+
+// In-Game messages
+$position -1 0.65
+$effect 2
+$color 100 100 100
+$color2 240 110 0
+$fadein 0.01
+$fxtime 0.25
+$holdtime 2.0
+$fadeout 0.5
+
+GAMESAVED
+{
+Jogo Salvo...
+}
+
+// Game title
+$position -1 -1
+$effect 0
+$color 180 180 180
+$color2 0 0 0
+$fadein 1.0
+$holdtime 3.0
+$fadeout 1.5
+
+GAMETITLE
+{
+Half-Life: Opposing Force
+}
+
+
+
+
+
+//BOOT CAMP TRAINING TEXT
+
+$position -1 0.65
+$effect 2
+$color 100 100 100
+$color2 0 200 50
+$fadein 0.005
+$fxtime 0.5
+$holdtime 7.0
+$fadeout 1.5
+$position -1 0.65
+
+
+BCROPES01
+{
+TOQUE NAS CORDAS PARA SUBIR NELAS.
+PARA SUBIR OU DESCER NAS CORDAS BASTA OLHAR 
+NA DIREÇÃO QUE DESEJA E 
+APERTAR A TECLA DE CAMINHAR PARA FRENTE.
+APERTE O BOTÃO DE PULO OU DESÇA ATÉ O 
+FINAL PARA SAIR DAS CORDAS.
+}
+
+BCROPES02
+{
+ASSIM QUE AGARRADO NA CORDA,
+APERTE UMA DAS TECLAS DE MOVIMENTO PARA INDICAR
+A DIREÇÃO DO MOVIMENTO DO BALANÇO. APERTE A 
+TECLA DE PULO PARA SAIR A QUALQUER MOMENTO.
+}
+
+BCROPES03
+{
+AO SE BALANÇAR EM CORDAS, APERTE A TECLA DE PULO
+PARA DEIXAR A CORDA E SER LARGADO NA DIREÇÃO 
+DO MOVIMENTO QUE FOI BALANÇADO
+}
+
+BCROPES04
+{
+
+}
+
+BCPISTOL01
+{
+PARA AUMENTAR A PRECISÃO DA DESERT
+EAGLE, APERTE A TECLA DE ATAQUE SECUNDÁRIO PARA ATIVAR 
+E DESATIVAR A MIRA LASER
+}
+
+BCRIFLE01
+{
+APERTE A TECLA DO ATAQUE SECUNDÁRIO PARA ATIVAR A
+FUNÇÃO DE ZOOM DO RIFLE DE PRECISÃO.
+}
+
+//BOOT CAMP TRAINING TEXT
+
+BCNVISION
+{
+APERTE A TECLA DE USO DO SEU ÓCULOS DE VISÃO NOTURNA
+PARA ATIVAR A VISÃO NOTURNA
+}
+
+
+
+// ALLSTAR DEATMATCH CREDITS
+$position -1 0.8
+$effect 2
+$color 150 150 150
+$color2 0 250 0
+$fadein .05
+$fadeout 1.5
+$holdtime 5
+
+ALLSTAR1
+{
+Allstar Deathmatch: Untimely Demise
+
+By: Eric Reuter
+}
+
+ALLSTAR2
+{
+Allstar Deathmatch: Waste Disposal
+
+By: David "Kevlar" Kelvin
+}
+
+ALLSTAR3
+{
+Allstar Deathmatch: Lost Outpost
+
+By: Stephen "Reichert" Palmer
+}
+
+ALLSTAR4
+{
+Allstar Deathmatch: Rubble
+
+By: Tom "Paradox" Mustaine
+}
+
+ALLSTAR5
+{
+Allstar Deathmatch: Xen Dance
+
+By: David "Kevlar" Kelvin
+}
+
+ALLSTAR6
+{
+Allstar Deathmatch: Paradox Park
+
+By: Tom "Paradox" Mustaine
+}
+
+ALLSTAR7
+{
+Allstar Deathmatch: Kandy Base
+
+By: Marin "Kandyman" Gazzari
+}
+
+ALLSTAR8
+{
+Allstar Deathmatch: Kandy One
+
+By: Marin "Kandyman" Gazzari
+}
+
+ALLSTAR9
+{
+Allstar Deathmatch: Repent
+
+By: Levelord
+}
+
+ALLSTAR10
+{
+Allstar Deathmatch: Blue Meanie
+
+By: Richard "Zdim" Carlson
+}
+
+// Added for CTF
+CTFChooseTeamA
+{
+=== Opposing Force CTF ===
+
+Ataque a equipe inimiga e capture a bandeira deles!
+Use itens poderosos para ajudar a dar mais
+dano, sobreviver mais ou ganhar outras habilidades.
+Veja o Manual de CTF do Op4 para ver regras e dicas.
+
+=== Escolha sua equipe ===
+
+1. Black Mesa
+2. Opposing Force
+3. Espectador
+
+7. Menor Equipe
+}
+
+CTFChooseTeamB
+{
+=== Escolha sua Equipe ===
+
+1. Black Mesa
+2. Opposing Force
+3. Espectador
+
+6. Sair
+7. Menor Equipe
+}
+
+CTFChooseCharBM
+{
+=== Escolha seu Personagem ===
+
+1. Barney
+2. Cientista 
+3. Gina
+4. Gordon Freeman
+5. Otis
+6. Walter
+
+7. Personagem Aleatório
+}
+
+CTFChooseCharOF
+{
+=== Escolha seu Personagem ===
+
+1. Lider do Esquadrão
+2. Sgt. Sharp
+3. Soldado Bruto
+4. Recruta
+5. Adrian Shephard
+6. Sd. Tower
+
+7. Personagem Aleatório
+}
+
+CTFPickUpFlagP
+{
+Você tem a bandeira do inimigo!
+
+Volte pra base!
+}
+
+CTFPickUpFlagG
+{
+Sua bandeira foi largada!
+
+Esconda-a até ela retornar!
+}
+
+CTFPickUpFlagT
+{
+Sua equipe PEGOU a bandeira do INIMIGO!!
+}
+
+CTFLoseFlag
+{
+Sua bandeira foi PEGA!!
+}
+
+CTFCaptureFlagP
+{
+VOCÊ CAPTUROU A BANDEIRA!!
+}
+
+CTFCaptureFlagT
+{
+Sua equipe CAPTUROU a BANDEIRA!!
+}
+
+CTFFlagCaptured
+{
+Sua bandeira foi CAPTURADA!!
+}
+
+CTFFlagScorerBM
+{
+ Capturada a bandeira de Black Mesa!
+}
+
+CTFFlagScorerOF
+{
+ Capturada a bandeira da Opposing Force!
+}
+
+CTFFlagGetBM
+{
+ Você pegou a bandeira de Black Mesa!
+}
+
+CTFFlagGetOF
+{
+ Você pegou a bandeira da Opposing Force!
+}
+
+CTFFlagReturnBM
+{
+ a bandeira de Black Mesa foi retornada!
+}
+
+CTFFlagReturnOF
+{
+ A bandeira da Opposing Force foi retornada!
+}
+
+CTFFlagReturnedT
+{
+Sua bandeira retornou!
+}
+
+CTFFlagReturnedE
+{
+A bandeira inimiga retornou!
+}
+
+CTFFlagKilledBM
+{
+ Você matou o carregador da bandeira de Black Mesa!
+}
+
+CTFFlagKilledOF
+{
+ Você matou o carregador da bandeira da Forca Oposta!
+}
+
+CTFFlagDefendedBM
+{
+ A base de Black Mesa foi defendida!
+}
+
+CTFFlagDefendedOF
+{
+ A base da Opposing Force foi defendida!
+}
+
+CTFTeamBM
+{
+Black Mesa
+}
+
+CTFTeamOF
+{
+Opposing Force
+}
+
+CTFScorePoint
+{
++1 ponto
+}
+
+CTFScorePoints
+{
++10 pontos
+}
+
+CTFInfoFlagAtBaseBM
+{
+A bandeira da Black Mesa está na base.
+}
+
+CTFInfoFlagAtBaseOF
+{
+A bandeira da Opposing Force está na base.
+}
+
+CTFInfoFlagCarriedBM
+{
+Você está levando a bandeira da Black Mesa.
+}
+
+CTFInfoFlagCarriedOF
+{
+Você está levando a bandeira da Opposing Force.
+}
+
+CTFInfoFlagCarryBM
+{
+A bandeira da Black Mesa está sendo levada.
+}
+
+CTFInfoFlagCarryOF
+{
+A bandeira da Opposing Force está sendo levada.
+}
+
+CTFInfoFlagDroppedBM
+{
+A bandeira de Black Mesa está largada.
+}
+
+CTFInfoFlagDroppedOF
+{
+A bandeira da Opposing Force está largada.
+}
+
+CTFCarrierDefendedBM
+{
+Você defendeu o carregador da bandeira de Black Mesa.
+}
+
+CTFCarrierDefendedOF
+{
+Você defendeu o carregador da bandeira da Opposing Force.
+}
+
+CTFFlagAssistBM
+{
+Você ajudou na captura para a equipe da Black Mesa.
+}
+
+CTFFlagAssistOF
+{
+Você ajudou na captura para a equipe da Opposing Force.
+}
+
+CTFTimeRemain
+{
+Tempo restante:
+}
+
+CTFGameReset
+{
+Outro jogador entrou no jogo.
+Recolocando bandeiras e poderes.
+}
+
+CTFTitle_SelectYourTeam
+{
+Escolha Seu Lado:
+}
+
+CTFTitle_SelectYourCharacter
+{
+Escolha Seu Personagem:
+}
+
+// Team Menu
+CTFTeam_BM
+{
+Black Mesa
+}
+
+CTFTeam_OF
+{
+Opposing Force
+}
+
+CTFTeam_AutoAssign
+{
+Auto Atribuir
+}
+
+// Character Menu
+CTFTitle_Barney
+{
+Barney
+}
+
+CTFTitle_Cleansuit
+{
+Cleansuit Scientist
+}
+
+CTFTitle_Gina
+{
+Gina
+}
+
+CTFTitle_Gordon
+{
+Dr. Freeman
+}
+
+CTFTitle_Otis
+{
+Otis
+}
+
+CTFTitle_Scientist
+{
+Walter
+}
+
+CTFTitle_Civ_Random
+{
+Aleatório
+}
+
+CTFTitle_SquadLeader
+{
+Líder de Equipe
+}
+
+CTFTitle_DrillSgt
+{
+Instrutor Sgt. Sharp
+}
+
+CTFTitle_Grunt
+{
+Grunt
+}
+
+CTFTitle_Recruit
+{
+Recruta
+}
+
+CTFTitle_Adrian
+{
+Cabo Shephard
+}
+
+CTFTitle_Tower
+{
+Sd. Tower
+}
+
+CTFTitle_Op4_Random
+{
+Aleatório
+}
+
+Barney
+{
+Barney
+}
+
+Cleansuit
+{
+Cient. Cleansuit
+}
+
+Gina
+{
+Gina
+}
+
+Gordon
+{
+Dr. Freeman
+}
+
+Otis
+{
+Otis
+}
+
+Scientist
+{
+Walter
+}
+
+Civ_Random
+{
+Aleatório
+}
+
+SquadLeader
+{
+Líder de Equipe
+}
+
+DrillSgt
+{
+Instrutor Sgto. Sharp
+}
+
+Grunt
+{
+Grunt
+}
+
+Recruit
+{
+Recruta
+}
+
+Adrian
+{
+Cabo Shephard
+}
+
+Tower
+{
+Sldd. Tower
+}
+
+Op4_Random
+{
+Aleatório
+}
+
+// other menu text
+CTFMenu_OK
+{
+Ok
+}
+
+CTFMenu_Cancel
+{
+Cancelar
+}
+
+CTFMenu_Spectate
+{
+Espectador
+}
+
+Unassigned
+{
+Desalinhado
+}
+
+Spectators
+{
+Espectadores
+}
+
+PLAYERS
+{
+Jogadores
+}
+
+TEAMS
+{
+Equipes
+}
+
+SCORE
+{
+Matou
+}
+
+DEATHS
+{
+Mortes
+}
+
+CTFSCORE
+{
+Pontuações
+}
+
+LATENCY
+{
+Latência
+}
+
+CTFTitle_EndGameStats
+{
+Estat. finais
+}
+
+CTFTitleStats_BlackMesa
+{
+Black Mesa
+}
+
+CTFTitleStats_OpposingForce
+{
+Opposing Force
+}
+
+CTFTitleStats_Both
+{
+Todos
+}
+
+CTFTitleStats_Individual
+{
+Individual
+}
+
+CTFMenu_ScoreBoard
+{
+Tabela de Pontos
+}
+
+CTFMenu_Stats
+{
+Terminar Estat.
+}
+
+CTFMenu_SaveStats
+{
+Salvar Estat.
+}
